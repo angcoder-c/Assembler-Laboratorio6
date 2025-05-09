@@ -14,11 +14,11 @@ https://users.ece.utexas.edu/~valvano/EE345L/Labs/Fall2011/CortexM_InstructionSe
 
 main:
 
-	// limpiar la memoria
-	MOV R0, #0
+    // limpiar la memoria
+    MOV R0, #0
 
-	// 1. Operaciones
-	LDR R1, =0xC0
+    // 1. Operaciones
+    LDR R1, =0xC0
     LDR R2, =0x1F
 
     SUB R3, R1, R2
